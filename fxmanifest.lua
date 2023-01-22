@@ -7,7 +7,7 @@ game 'gta5'
 
 author 'Bob_74'
 description 'Load and customize your map'
-version '2.0.15'
+version '2.1.1'
 
 lua54 "yes"
 
@@ -25,7 +25,7 @@ client_scripts {
     , "gtav/franklin.lua"
     , "gtav/franklin_aunt.lua"
     , "gtav/graffitis.lua"
-    , "gtav/pillbox_hospital.lua"
+    -- , "gtav/pillbox_hospital.lua"
     , "gtav/lester_factory.lua"
     , "gtav/michael.lua"
     , "gtav/north_yankton.lua"
@@ -82,7 +82,7 @@ client_scripts {
     , "dlc_bikers/weed.lua"
     , "dlc_bikers/clubhouse1.lua"
     , "dlc_bikers/clubhouse2.lua"
-    , "dlc_bikers/gang.lua"
+    -- , "dlc_bikers/gang.lua"
 
     -- DLC Import/Export
     , "dlc_import/garage1.lua"
@@ -105,8 +105,8 @@ client_scripts {
     , "dlc_afterhours/nightclubs.lua"
 
     -- DLC Diamond Casino (Requires forced build 2060 or higher)
-    , "dlc_casino/casino.lua"
-    , "dlc_casino/penthouse.lua"
+    -- , "dlc_casino/casino.lua"
+    -- , "dlc_casino/penthouse.lua"
 
     -- DLC Tuners (Requires forced build 2372 or higher)
     , "dlc_tuner/garage.lua"
